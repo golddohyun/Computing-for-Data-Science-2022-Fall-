@@ -68,18 +68,18 @@ Black::~Black(){}
 
 // Black_momma //
 Black_Momma::Black_Momma():Black(){ 
-    cubweight=0;
+    cubaggressiveness=0;
     cub=0;
 }
 Black_Momma::Black_Momma(float aWeight):Black(aWeight){
-    cubweight=0;
+    cubaggressiveness=0;
     cub=0;
 } 
 void Black_Momma::AddCub(Black *aCub) {
 	if (cub==2) return;
 	else {
 		cub+=1;
-		cubweight += aCub->GetWeight()*0.7; }
+		cubaggressiveness += aCub->GetWeight()*0.7; }
 }
 float Black_Momma::Aggressiveness(void){
         float agg = Black::Aggressiveness();
@@ -90,9 +90,8 @@ float Black_Momma::Aggressiveness(void){
 float Black_Momma::TotalAggressiveness(void){
         float agg = Black::Aggressiveness();
         if (cub==0){return agg;}
-        else {return agg*2 + cubweight;}
+        else {return agg*2 + cubaggressiveness;}
 }
-
 
 void Black_Momma::PrintSelf(){
     cout<<"I am Black Mommabear with "<<cub <<" cub(s), Weight="<<GetWeight()<<", Aggressive="<<Aggressiveness()<<", Total Aggressiveness="<<TotalAggressiveness()<<endl;

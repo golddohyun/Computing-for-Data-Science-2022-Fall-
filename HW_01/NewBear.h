@@ -44,11 +44,11 @@ class Black : public Bear{
 };
 
 class Black_Momma : public Black {
-		protected:
-		float cubweight;
-		int cub;
-		Bear *aCub;
-		
+        protected:
+        float cubaggressiveness;
+        int cub;
+        Bear *aCub;
+        
         public :
         Black_Momma();
         Black_Momma(float aWeight);
