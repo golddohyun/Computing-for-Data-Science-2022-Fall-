@@ -11,8 +11,7 @@ the most aggressive, and then Grizzly and then Black bear.
 
 ### HW02 C++ Programming Practice
 > 2-1. WordCounter
-- Implement a WordCounter class which counts the number of word and characters from a text. The class should provide interfaces to count word (GetWordCount), character (GetCharacterCount) and the number of unique words (GetUniqueWordCount). In addition, it can count a particular word(GetWordCount OneWord).
+![image](https://user-images.githubusercontent.com/104754233/193436843-383a16f7-a0c6-44dc-b5ba-a6d86d632980.png)
 
 > 2-2. Prime Number
-- Write a C++ code to print all prime numbers between two integer numbers given by users.
-- Include two input numbers to check prime number.
+![image](https://user-images.githubusercontent.com/104754233/193436851-5e92e6ae-83d4-4644-8606-78b1f357c8a3.png)
