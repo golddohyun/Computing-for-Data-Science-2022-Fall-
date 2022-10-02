@@ -10,10 +10,8 @@ the most aggressive, and then Grizzly and then Black bear.
 
 
 ### HW02 C++ Programming Practice
-> 2-1. WordCounter
-- 
-![image](https://user-images.githubusercontent.com/104754233/193436843-383a16f7-a0c6-44dc-b5ba-a6d86d632980.png)
+> 2-1. WordCounter\n
+![image](https://user-images.githubusercontent.com/104754233/193436869-970bde54-91f0-475c-b830-3cda95c29a6d.png)
 
-> 2-2. Prime Number
-- 
-![image](https://user-images.githubusercontent.com/104754233/193436851-5e92e6ae-83d4-4644-8606-78b1f357c8a3.png)
+> 2-2. Prime Number\n 
+![image](https://user-images.githubusercontent.com/104754233/193436881-185c19a2-5d93-4a76-bc50-db1aa55818b6.png)
