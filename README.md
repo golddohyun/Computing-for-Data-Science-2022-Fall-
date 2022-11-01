@@ -16,3 +16,7 @@
 - 2-2. Prime Number
 
 ![image](https://user-images.githubusercontent.com/104754233/193436881-185c19a2-5d93-4a76-bc50-db1aa55818b6.png)
+
+
+### HW03 Read file, calculate correlation and run simple linear regression
+* Implement two classes: DataFrame and Matrix. DataFrame reads a csv file and can generate a Matrix object using specific columns. Matrix class stores a vector (n*1 matrix) or a matrix data and provide interface of matrix operations.
