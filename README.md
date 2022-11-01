@@ -9,14 +9,14 @@
 
 
 ### HW02 C++ Programming Practice
-- 2-1. WordCounter
+* 2-1. WordCounter 
+- Implement a WordCounter class which counts the number of word and characters from a text. The
+class should provide interfaces to count word (GetWordCount), character (GetCharacterCount) and
+the number of unique words (GetUniqueWordCount). In addition, it can count a particular word
+(GetWordCount OneWord).
 
-![image](https://user-images.githubusercontent.com/104754233/193436869-970bde54-91f0-475c-b830-3cda95c29a6d.png)
-
-- 2-2. Prime Number
-
-![image](https://user-images.githubusercontent.com/104754233/193436881-185c19a2-5d93-4a76-bc50-db1aa55818b6.png)
-
+* 2-2. Prime Number
+- print all prime numbers between two integer numbers given by users
 
 ### HW03 Read file, calculate correlation and run simple linear regression
 * Implement two classes: DataFrame and Matrix. DataFrame reads a csv file and can generate a Matrix object using specific columns. Matrix class stores a vector (n*1 matrix) or a matrix data and provide interface of matrix operations.
