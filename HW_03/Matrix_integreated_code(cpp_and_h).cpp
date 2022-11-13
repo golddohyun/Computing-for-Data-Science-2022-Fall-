@@ -14,8 +14,6 @@ private:
 	int col;
 	double b0, b1;
 	vector<vector<double>> data;
-
-
 public :
 	Matrix();
 	Matrix(const vector<vector<double> > &m);
@@ -84,7 +82,6 @@ int DataFrame::ReadData(std::string FileName, char sep, char comment, bool IsHea
 	return 0;}
 
 Matrix DataFrame::GetMatrix(int index[], int nColumn) {
-
 	vector< vector<double> > temp;
 	vector<double> numbers;
 	Matrix matrix;
@@ -101,9 +98,7 @@ Matrix DataFrame::GetMatrix(int index[], int nColumn) {
 	matrix = Matrix(temp);
 	return Matrix{matrix};
 };
-
 DataFrame::~DataFrame() {};
-
 
 Matrix::Matrix() {};
 Matrix::Matrix(const vector<vector<double>> &m) {
@@ -120,15 +115,12 @@ int Matrix::GetNumColumn() {
 	return col;
 }
 
-
 void Matrix::print() {
 	for (auto &i: data) {
 		for (double &j: i) cout << j << " ";
 	cout << endl;
 	}
 };
-
-
 
 Matrix Matrix::operator+(const Matrix& other)
 {
